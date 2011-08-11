@@ -7,6 +7,7 @@ MongoMapper.db_config = {
   'default' => {'name' => "default_test"}
   'global' => {'name' => 'global_test'},      
 }
+MongoMapper.database = MongoMapper.databases[:default].name
 
 # Comment will be connected to :default database
 module Comment
