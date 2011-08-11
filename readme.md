@@ -39,9 +39,7 @@ Migration.update(:default, 1)
     
 ## Custom Scope
 
-``` ruby    
 :with_scope, :default_scope, :with_exclusive_scope, see spec for details.
-```
     
 ## Counter Cache
 
@@ -83,9 +81,9 @@ class User
 end
 ```
     
-## more
+## More
 
-Attribute Cache, Spec Helpers (auto-clean db before each test).
+Please see specs.
 
 # Installation
 
