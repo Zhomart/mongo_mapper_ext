@@ -12,7 +12,7 @@ MongoMapper.db_config = {
 }
 MongoMapper.database = MongoMapper.databases[:default].name
 
-# clearing database
+# clearing database DON'T DO IT IN PRODUCTIONS, FOR TESTS ONLY
 db = MongoMapper.databases[:default]    
 db.collection_names.each do |name|
   next if name =~ /^system\./
