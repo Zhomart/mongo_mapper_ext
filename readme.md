@@ -20,6 +20,7 @@
     end
     
 ## Migrations
+    **Please see samples/migration.rb** for full example.
 
     # Works with multiple databases, support versions
     Migration.define :default, 1 do |m|
@@ -30,7 +31,6 @@
     # Tell it database and version, and it's smart enough to figure out all needed :up or :down
     Migration.update(:default, 1)
     
-
 ## Custom Scope
     :with_scope, :default_scope, :with_exclusive_scope, see spec for details.
     
@@ -81,4 +81,4 @@ Attribute Cache, Spec Helpers (auto-clean db before each test).
 
 # License
 
-Copyright (c) Alexey Petrushin [http://4ire.net](http://4ire.net), released under the MIT license.
+Copyright (c) Alexey Petrushin http://petrush.in, released under the MIT license.
