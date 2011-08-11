@@ -23,7 +23,7 @@ end
     
 ## Migrations
 
-**Please see samples/migration.rb** for full example.
+Please see **samples/migration.rb** for full example.
 
 ``` ruby
 # Works with multiple databases, support versions
